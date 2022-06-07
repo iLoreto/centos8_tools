@@ -2,6 +2,6 @@ dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarc
 dnf install -y https://rpms.remirepo.net/enterprise/remi-release-8.rpm
 yum -y install yum-utils
 dnf module reset php -y
-dnf module install php:remi-8.0 -y
-dnf -y install php80-php-opcache
+dnf module install php:remi-8.2 -y
+dnf -y install php82-php-opcache
 php --version
